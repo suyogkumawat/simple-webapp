@@ -1,6 +1,13 @@
 # Flask App
 
 ```bash
+ sudo usermod -a -G docker ubuntu
+ docker ps -a
+ newgrp docker
+```
+
+
+```bash
  docker network ls
  docker network create mycustom -d bridge
  docker ps
