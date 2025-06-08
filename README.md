@@ -1,5 +1,7 @@
 # Flask App
 
+![UI Screenshot](./ui.png)
+
 ```bash
  sudo usermod -a -G docker ubuntu
  docker ps -a
