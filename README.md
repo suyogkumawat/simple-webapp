@@ -21,3 +21,7 @@
  docker ps
  docker exec -it mysql bash
 ```
+
+```bash
+docker system prune
+```
